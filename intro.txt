@@ -1,0 +1,31 @@
+HTML  - hypertext markup language - creating website and web appications. - content
+
+- Tags  - <button> , <img> , <div> , span , h1 to h6
+     opening and closing - 
+     <button>  </button>
+
+
+basic stucture 
+
+<!DOCTYPE html> - it is declaration we are using the latest version of html 
+<html>
+    <head>
+    </head>
+
+    <body>
+    </body>
+</html>
+
+
+html5 - media files , security https , tags  , 
+
+html tag - below is the html document. 
+
+head  -  head tag  - description head tag - 
+
+body - body i.e what ever content is there on website , it will come here.
+
+
+
+
+
