@@ -1,0 +1,142 @@
+js
+
+Data types : Numbers -int , float - decimal points included.
+            String , Arrays , Sets , Objects
+
+Object - key - value pair
+
+const person = {
+    name :'John',
+    age : 34,
+    email : 'abc@xyz.com'
+  
+}
+
+Symbols  - ES6 JS
+
+
+var , let and const - using this we can define the data types in js
+
+var name = 'Gaurav'
+
+let age = 45
+
+
+
+functions in js
+Normal function :
+ function test(){
+    // block of code
+ }
+
+ test() - calling the test function 
+
+ 2 Anonymous functions : 
+ const result = function(){
+    // block of code
+ }
+
+ result();
+
+ 3 arrow functions  
+  const resp = ()=>{
+    // block of code
+  }
+  resp();
+
+  local scope and global scope (scope is related variable and function)
+
+
+Global scope :  variable which can be accesed by any function in my codebase
+
+local scope/functional scope : variable which can be accessed by the particular function.
+
+
+const age = 45; - 
+function one(){
+    const name = 'John';
+    console.log(age);
+    console.log(name)
+}
+
+function two(){
+    console.log(age);
+    console.log(name);
+}
+
+one();
+two();
+
+
+Var :
+-functional scope 
+-Var allows changing of value
+-Var allows hoisting
+function one(){
+    var name = 'John';
+    var age = 34;
+     console.log(name, "before change");
+    console.log(age, "before change");
+    name = 45;
+    age= 'Eve';
+    console.log(name, "after change");
+    console.log(age, "after change");
+}
+//console.log(name);
+
+one();
+
+Let  - 
+-Functional scope
+- let also allows value change
+- let does not support hoisting
+
+Const 
+- functional scope
+ - const does not allow value change  - 
+ - const also does not hositing.
+
+ function one(){
+    const name = 'John';
+    const age = 34;
+     console.log(name, "before change");
+    console.log(age, "before change");
+    name = 45;
+    age= 'Eve';
+    console.log(name, "after change");
+    console.log(age, "after change");
+}
+//console.log(name);
+
+one();
+
+
+
+
+What is difference between null , undefined and not defined.
+
+Null - represents - empty  - null data type in js , 
+
+undefined - datatype 
+
+var name ;
+
+intialization and declaration 
+
+var name           name = 'John'
+
+var name;
+console.log(name);
+
+
+Not defined  - error
+which state no intialization and no declaration.
+
+
+
+
+
+
+
+
+

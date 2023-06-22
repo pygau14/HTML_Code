@@ -27,5 +27,111 @@ body - body i.e what ever content is there on website , it will come here.
 
 
 
+Inline Elements and Block Elements
+
+Inline Elements : oocupy space equal to the its content. example : span , a , etc
+
+Block Element : occupy whole line
+
+
+Lets today CSS : Casacading style sheets - html document styles - we use it like text formatting , colur , background colur, 
+
+BOX MODEL in CSS 
+
+Content , Border , Padding and Margin
+
+Content is text wirtten under the tag
+Border  - container in which content is there.
+padding is distance between content and Border
+Margin is distnace outside the border.
+
+
+
+CSS  - cascading style sheets
+
+3 CSS 
+ - Inline CSS 
+ - Internal CSS 
+ - External CSS 
+
+ Inline CSS  - which is written besides the tags with use of style attribute
+  
+
+Internal CSS  - which is written in the same html files. we use style tag in head tag for adding the CSS.
+
+external CSS  - CSS is there in the seperated file 
+ we link the CSS extrenal file using link tag - it should also be in the head tag.
+
+
+
+Web application  -HTML  -structure
+                 - CSS - Styling
+                 - JS  - functionality
+
+
+
+
+CSS selectors - internal and external CSS
+ - using id and class  - 
+ - id  -># and class  -> . -> Definate CSS selector
+
+ id is always unique in html document.
+ class can be same for more than 1 tags
+
+
+ Types of inputs in html
+  - text - name , 
+  - number - age , mobile_no , 
+  -email - 
+  -password
+  - radio
+  - checkbox
+  - file
+  - date and time
+  - dropdowns using select and option tags
+
+
+Types of css selectors
+using id and class - 
+psuedo class  - applying css to particular state of an Element
+psuedo element  - applying css to particular side/ sub element from that element.
+using tags - least prefer.
+
+
+Priority 
+id > Class > tags
+
+inline css > internal css > external css.
+
+
+
+
+
+
+
+
+CSS position
+
+Types of postion :
+
+1 static position : default position - flow top to bottom , left to right -normal flow 
+top , bottom , left and right  
+
+2 Relative postion  - normal flow  - top , right , left and bottom - affect here.
+
+
+3 Fixed postion : position will be fixed. 
+
+4 Absolute position : first it will check its parent,
+
+
+
+
+
+
+
+
+
+
 
 

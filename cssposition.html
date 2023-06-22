@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS opacity and position property</title>
+    <style>
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       #image{
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 100px;
+        height : 100px;
+       }
+       #image:hover{
+        width : 200px;
+        height: 200px;
+       }
+       #class{
+        color: blue;
+       }
+       #class::first-letter{
+        color: black;
+        font-size: 40px;
+        font-weight: bolder;
+       }
+       a{
+        color: aquamarine;
+       }
+       button{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+       }
+       #btn{
+        text-align: center;
+        background-color: white;
+        color: black;
+       }
+    </style>
+</head>
+<body>
+    <div id="container"><img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KGrV8CFD342a13TNM0FBm5jD9ksOTpxMl9wmcnxY&s"></div>
+
+    <p id="class">This is the most interesting thing I have seen today</p>
+
+    <a href="#" class="link">Click here!!</a>
+
+    <br>
+    <button id="btn">Done</button>
+
+    <h4 style="height: 40px;">Heading 4</h4>|
+
+
+    <span>Content 1</span>
+    <span>Content 2</span>
+
+    <div>Div 1</div>
+    <div>Div 2</div>
+</body>
+</html>
