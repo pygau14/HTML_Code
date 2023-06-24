@@ -133,10 +133,28 @@ Not defined  - error
 which state no intialization and no declaration.
 
 
+DOM  - Document object Model.
+
+
+
+HTMl Attributes 
+id , class , name , type , for , href , src .
+
+<input id="email" type="email" placeholder="enter your email here">
 
 
 
 
+<script> - tag - we use this tag for Js - 
+ - You can create the external js file  - script.js
 
+ <script src="//path//of//js//file">
 
+ - <script>
+    // js code
+  </script>
 
+  for accessing any html element in js we can do it using following function
+
+  - document.getElmentById(id) - 
+   - document.getElmentByClassName - 

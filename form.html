@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        #heading{
+            text-align: center;
+            color: blueviolet;
+            text-shadow: 0 0 2 15;
+            font-size: 20px;
+        }
+        #email,#password{
+            width: 150px;
+            height : 40px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        #btn{
+            border-radius: 20px;
+            width : 80px;
+            height : 40px;
+            border: 1px solid black;
+        }
+        #btn:hover{
+            background-color : black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Myntra</h1>
+    <p>login to get ultimate access!!</p>
+    <input id="email" type="email" placeholder="Enter your email">
+    <br>
+    <input id="password" type="password" placeholder="enter your password">
+    <br>
+    <Button onclick="login()" id="btn">Sign In</Button>
+
+    <strong id="error_msg"></strong>
+    <script>
+        function login(){
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const msg = document.getElementById('error_msg');
+            if(email == "" || password == ""){
+               msg.innerText = "Error you have not filled email or password"; 
+            }
+            else {
+                msg.innerText = "Login Sucessful!!!!! Congratulations"
+            }
+        }
+    </script>
+</body>
+</html>
