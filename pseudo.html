@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo </title>
+    <style>
+        #head:hover{
+            color: pink;
+            text-align: center;
+        }
+        #head:active{
+            color: brown;
+        }
+        #head:visited{
+            color : whitesmoke
+        }
+        button{
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+        p::first-letter{
+            font-size: 30px;
+        }
+        p::before{
+            content: '->';
+            color: red;
+        }
+
+        p::after{
+            content : '>>>>>>';
+            color: blue;
+            
+        }
+        #midcontent{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">Pseudo class</h1>
+    <button>Submit</button>
+
+
+    <p>This is para which is used for <span id="midcontent">demonstrating the</span> pseudo element</p>
+</body>
+</html>

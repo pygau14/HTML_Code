@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - creation using js</title>
+    <style>
+        #heading{
+            text-align: center;
+            margin-top: 30px;
+            text-shadow: 0 0 2 15;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">List App</h1>
+    <p>This is app which is used for showing list of Books</p>
+    <button id="btn" onclick="showList()">Show List</button>
+    <div id="mainContainer"></div>
+    <script>
+        function showList(){
+            // we create elment in js using document.createElment('tagname');
+            const h4 = document.createElement('h4');
+            h4.innerText = "Book 1";
+
+            //attaching the element we have created to Page
+            const mainDiv  = document.getElementById('mainContainer');
+            mainDiv.appendChild(h4);
+        }
+    </script>
+</body>
+</html>

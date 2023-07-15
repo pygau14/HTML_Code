@@ -126,12 +126,133 @@ top , bottom , left and right
 
 
 
+In HTMl there are two kinds of elements - Inline and Block
+
+Inline element - space occupy equal to their content - span
+Block element - occupy whole space. - div
+
+
+CSS  - cascading style sheets
+
+we acccess the elments using the html attributes.
+
+There 3 types of css  - Inline , Internal , external
+
+
+Different types of CSS selectors
+1 using id and class - id-> #idname , class -> .classname
+2 Directly using tag
+
+3 Relational CSS selector 
+ - +
+ - >
+ - <
+
+
+ psuedo class and psedo element
+ pseudo class -> You want to apply CSS on particular state of the element
+
+
+psuedo elements -> when we want to apply css on the particular part of an element
+
+
+
+CSS Box model 
+
+ - Content -
+ - Padding - distance between the content and border , inside the border
+
+ - Border
+ - Margin
+
+
+CSS positions :
+
+1 Static :  default position - top to bottom/ left to right , isme we can't change the margin using left , right , top and bottom.
+
+2 Absolute : flow top to bottom , left to right , we can change the margin using left , right , top and bottom
+
+3 Relative : child element will check the postion of parent element , if parent element does not have any postion , it will go for absolute
+
+4 Fixed : postion is fixed
 
 
 
 
 
+Display Property In CSS
+
+- Inline 
+- Block 
+- flex
+- Grid
+- None
+
+
+display - 
+flex - container types
+grid  - matrix structure
+block - 
+inline -
+none - 
+
+display flex ->
+1 Container Type structure
+2 parent flex - we give layout to all the childs 
+3 
+
+
+By default - display - horizontally align - row form
+
+flex-direction - row , row-reverse , column , column-reverse.
+flex-direction : row, , row-reverse
+
+main axis - row (horizontal line ) - justify-content and cross axis (vertical line) - align-items
+
+flex-direction - column 
+main axis - veritcal - justify content , and cross axis - horizontal - align-items
+
+
+justify-content : main axis control
+align-item : cross axis control
+
+
+flex-wrap -> wrap - it will wrap all the child in multiple lines
+flex-wrap -> nowrap - it will wrap all the child in single line
 
 
 
+display flex , display grid , display inline , display block , display none
 
+display flex is used to keep the UI in the container
+flex Property is applied on parent element , automatically child elements apply 
+
+
+
+display flex  -> row , column (row-reverse , column-reverse)
+
+
+by default row consider
+
+flex-direction : row , column , row-reverse , column-reverse
+
+flex-direction:row
+
+justify-content - main axis layout
+align-items - cross axis layout
+
+row
+justify-content -> main axis layout -> horizontal
+align-items -> cross axis layout -> vertical
+
+column
+justify-content -> main axis layout -> vertical
+align-items -> cross axis layout -> horizontal
+
+
+- flex-start 
+- flex-end
+- center
+- space-around 
+- space-between
+- space-evenly

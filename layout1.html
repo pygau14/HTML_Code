@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        #menuDiv , #contentDiv , #headerDiv{
+            width: 100%;
+            height: 150px;
+            border: 1px solid black;
+        }
+        #mainDiv{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+        #menuDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+           
+        }
+        .menu-item{
+            margin : 5px;
+        }
+        #headerDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #contentDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="menuDiv">
+           <div class="menu-item">About Us</div>
+           <div class="menu-item">Services</div>
+           <div class="menu-item">Connect</div>
+        </div>
+        <div id="contentDiv">
+            <div class="content-item">Content</div>
+        </div>
+        <div id="headerDiv">
+            <div class="header-item">Header 1</div>
+            <div class="header-item">Header 2</div>
+        </div>
+    </div>
+</body>
+</html>
